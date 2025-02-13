@@ -24,7 +24,7 @@ const renderQuestion = () => {
             renderButton("Run away", 10);
             break; 
             default:
-            console.log("You Won");
+            renderButton("You Won");
     }
 };
 // create a button
