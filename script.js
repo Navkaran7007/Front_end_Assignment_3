@@ -6,25 +6,25 @@ const renderQuestion = () => {
     buttonContainer.innerHTML = ""; 
     switch(currentState) {
         case 10: 
-            paragraphNode.textContent = "You wake up in a dark forest.\
-             Two paths lie ahead. Which one do you take?";
-            renderButton("Take the left path", 10.1);
-            renderButton("Take the right path", 10.2);
+            paragraphNode.textContent = "You' re in a garden with two gates. \
+            One has flowers, the other has butterflies. Which gate do you choose?";
+            renderButton("Flower Gate", 10.1);
+            renderButton("Butterfly Gate", 10.2);
             break;
         case 10.1:
-            paragraphNode.textContent = "You find a cave with \
-            glowing lights inside. What do you do?";
-            renderButton("Enter the cave", 11);
-            renderButton("Turn back", 10);
+            paragraphNode.textContent = "A fountain bubbles with rainbow water.\
+             Do you drink it or walk away?";
+            renderButton("Take a sip", 11);
+            renderButton("Leave quietly", 10);
             break;
         case 10.2:
-            paragraphNode.textContent = "You see an abandoned cabin.\
-             There's a strange sound inside. What do you do?";
+            paragraphNode.textContent = "You find an old shed with a creaky door.\
+             A giggle comes from inside. What do you do?";
             renderButton("Open the door"); 
-            renderButton("Run away", 10);
+            renderButton("Run Back", 10);
             break; 
             default:
-            renderButton("You Won");
+            renderButton("You Won",10);
     }
 };
 // create a button

@@ -1,17 +1,19 @@
 #  The Beginning
-"You wake up in a dark forest. Two paths lie ahead. Which one do you take?"
+"You’re in a garden with two gates. One has flowers, the other has butterflies. Which gate do you choose?"
 Buttons:
-"Take the left path" → Leads to Slide 2
-"Take the right path" → Leads to Slide 3
+"Flower Gate" → This take to Slide 2
+"Butterfly Gate" → This takes to Slide 3
 
-# The Mysterious Cave
-"You find a cave with glowing lights inside. What do you do?"
+# The Fountain
+A fountain bubbles with rainbow water. Do you drink it or walk away?"
 Buttons:
-"Enter the cave" → Game Win
-"Turn back" → Leads to the starting point
+"Take a sip" → Game Win 
+"Leave quietly" → Returns to the starting position
 
-# The Haunted Cabin
-"You see an abandoned cabin. There's a strange sound inside. What do you do?"
+# The shed
+"You find an old shed with a creaky door. A giggle comes from inside. What do you do?"
 Buttons:
-"Open the door" → Game Over
-"Run away" → Leads back to the starting point
+ "Open the door" → Game Win 
+ "Run back" → Returns to the starting position
+
+Game Restarts....
