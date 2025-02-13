@@ -14,7 +14,7 @@ body {
 /* Buttons */
 button {
     background-color: #4CAF50;
-    color: white;
+    color: rgb(13, 13, 13);
     padding: 1em;
     margin: 10px;
     font-size: 1.2em;
